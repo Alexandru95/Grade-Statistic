@@ -21,8 +21,6 @@ namespace GradeBook
         }
     }
 
-
-    /// Interface Implementation (interface takes all methods from all the class used)
     public interface IBook
     {
         void AddGrade(double grade);
@@ -85,7 +83,7 @@ namespace GradeBook
     }
     public class InMemoryBook : Book
     {
-        //constructor pentru clasa Book
+
         public InMemoryBook(string name) : base(name)
         {
             grades = new List<double>();
