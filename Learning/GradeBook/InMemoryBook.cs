@@ -109,7 +109,7 @@ namespace GradeBook
             }
         }
 
-        //metoda adaugare nota
+
         public override void AddGrade(double grade)
         {
             if (grade <= 100 && grade >= 0)
@@ -128,7 +128,7 @@ namespace GradeBook
 
         public override event GradeAddedDelegate GradeAdded;
 
-        //metoda pentru calculare statistici
+
         public override Statistics GetStatistics()
         {
             var result = new Statistics();
