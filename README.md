@@ -1,2 +1,2 @@
 # Grade-Statistic
-Creating a gradebook with statistic
+Creating a gradebook with statistics
